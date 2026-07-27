@@ -1,0 +1,3 @@
+- git status: Muestra el PRESENTE (El estado actual del repositorio)
+
+- git log: Muestra el PASADO (El historial de cambios):
