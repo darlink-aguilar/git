@@ -7,4 +7,4 @@
 	2. Crear y cambiar de rama en un solo paso ( git checkout -b nueva-rama )
 	3. Moverte temporalmente a un punto específico del historial usando el Hash ( git 	    checkout 1a2b3c4 )
 
-58:46
+- touch .gitignore: La palabra "touch" por sí sola es crear un archivo y el archivo creado que es .gitignore que es un archivo oculto donde Git reconoce qué archivos o carpetas debe ignorar
