@@ -1,3 +1,7 @@
+- git Branch: Para saber cuantas ramas locales existen (git branch -a es lo mismo pero también le suma las remotas)
+
+- git shortlog -sn: Ver la lista de colaboradores y cuántos commits ha hecho cada uno
+
 - git status: Muestra el PRESENTE (El estado actual del repositorio)
 
 - git log: Muestra el PASADO (El historial de cambios)
