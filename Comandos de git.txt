@@ -14,3 +14,16 @@
 - touch .gitignore: La palabra "touch" por sí sola es crear un archivo y el archivo creado que es .gitignore que es un archivo oculto donde Git reconoce qué archivos o carpetas debe ignorar
 
 - git diff: Sirve para comparar y ver las diferencias exactas entre distintas versiones de tus archivos.
+
+- git reset: Sirve para deshacer cambios o "rebobinar" el estado de tu proyecto a un commit anterior. Y tiene varios usos que son:
+	1. Deshacer git add ( git reset nombre_del_archivo.ext )
+	2. Deshacer Commits
+		2.1: Borra los commits posteriores al Hash indicado, pero conserva todos 	             tus cambios intactos en el Staging Area ( git reset --soft <HASH> )
+		2.2: Elimina los commits posteriores, limpia el Staging Area y  			     sobrescribe tus archivos de trabajo para dejarlos exactamente como 		     estaban en ese commit pasado. ( git reset --hard <HASH> ) únicamente 		     en commits locales porque es PELIGROSO
+
+1 hora y 26 kinutos
+
+
+
+
+
