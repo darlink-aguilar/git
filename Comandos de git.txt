@@ -1,3 +1,10 @@
 - git status: Muestra el PRESENTE (El estado actual del repositorio)
 
-- git log: Muestra el PASADO (El historial de cambios):
+- git log: Muestra el PASADO (El historial de cambios)
+
+- git checkout: Sirve para viajar entre diferentes estados o versiones dentro de tu repositorio, se puede utilizar para tres tareas muy distintas que son: 
+	1. Cambiar de rama ( git checkout nombre-de-rama )
+	2. Crear y cambiar de rama en un solo paso ( git checkout -b nueva-rama )
+	3. Moverte temporalmente a un punto específico del historial usando el Hash ( git 	    checkout 1a2b3c4 )
+
+58:46
