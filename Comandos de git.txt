@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 - git branch: Para saber cuantas ramas locales existen (git branch -a es lo mismo pero también le suma las remotas)
 
 >>>>>>> primera_rama
@@ -9,19 +7,6 @@
 
 - git log: Muestra el PASADO (El historial de cambios)
 
-<<<<<<< HEAD
-=======
-- git checkout: Sirve para viajar entre diferentes estados o versiones dentro de tu repositorio, se puede utilizar para tres tareas muy distintas que son: 
-	1. Cambiar de rama ( git checkout nombre-de-rama )
-	2. Crear y cambiar de rama en un solo paso ( git checkout -b nueva-rama )
-	3. Moverte temporalmente a un punto específico del historial usando el Hash ( git checkout 1a2b3c4 )
-🡣
-🡣
-🡣
-
-- git merge: Sirve para unir el historial y el código de dos ramas diferentes en una sola.
-
->>>>>>> primera_rama
 - touch .gitignore: La palabra "touch" por sí sola es crear un archivo y el archivo creado que es .gitignore que es un archivo oculto donde Git reconoce qué archivos o carpetas debe ignorar
 
 - git diff: Sirve para comparar y ver las diferencias exactas entre distintas versiones de tus archivos.
@@ -34,6 +19,8 @@
 
 - git tag: Se utiliza para marcar o etiquetar puntos específicos en el historial de commits de tu proyecto, se utiliza para marcar versiones de un sistema
 
+- git stash: Sirve para guardar temporalmente los cambios que tienes en tu área de trabajo (modificaciones a archivos, nuevos cambios sin confirmar) sin necesidad de hacer un commit
+
 -------------------------------------- RAMAS --------------------------------------
 
 - git branch: Para saber cuantas ramas locales existen (git branch -a es lo mismo pero también le suma las remotas)
@@ -43,7 +30,7 @@
 🡣
 
 - git checkout: Sirve para viajar entre diferentes estados o versiones dentro de tu repositorio, se puede utilizar para tres tareas muy distintas que son: 
-	1. Cambiar de rama ( git checkout nombre-de-rama )
+	1. Cambiar de rama ( git checkout nombre-de-rama / git switch nombre-de-rama)
 	2. Crear y cambiar de rama en un solo paso ( git checkout -b nueva-rama )
 	3. Moverte temporalmente a un punto específico del historial usando el Hash ( git checkout 1a2b3c4 )
 🡣
@@ -54,8 +41,19 @@
 
 -------------------------------------- CONFLICTOS --------------------------------------
 
+*
+CONFLICT (content): Merge conflict in Comandos de git.txt
+Automatic merge failed; fix conflicts and then commit the result.
 
+Este conflicto pasa porque editaste las mismas líneas de ese archivo en ambas ramas con información diferente, se soluciona abriendo el archivo que esta en conflicto y ves estos símbolos:
 
+	Entre <<<<<<< HEAD y =======: Es lo que tenías escrito en tu rama actual.
+	Entre ======= y >>>>>>>: Es lo que venía de la otra rama.
+
+Elimina esos símbolos y lo que no quieras agregar en el commit y ya solo haces un git add y el commit
+*
+
+2 horas y 7 minutos (Hacer la practica del git stash)
 
 
 
