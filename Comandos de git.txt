@@ -1,15 +1,8 @@
-- git Branch: Para saber cuantas ramas locales existen (git branch -a es lo mismo pero también le suma las remotas)
-
 - git shortlog -sn: Ver la lista de colaboradores y cuántos commits ha hecho cada uno
 
 - git status: Muestra el PRESENTE (El estado actual del repositorio)
 
 - git log: Muestra el PASADO (El historial de cambios)
-
-- git checkout: Sirve para viajar entre diferentes estados o versiones dentro de tu repositorio, se puede utilizar para tres tareas muy distintas que son: 
-	1. Cambiar de rama ( git checkout nombre-de-rama )
-	2. Crear y cambiar de rama en un solo paso ( git checkout -b nueva-rama )
-	3. Moverte temporalmente a un punto específico del historial usando el Hash ( git 	    checkout 1a2b3c4 )
 
 - touch .gitignore: La palabra "touch" por sí sola es crear un archivo y el archivo creado que es .gitignore que es un archivo oculto donde Git reconoce qué archivos o carpetas debe ignorar
 
@@ -21,7 +14,28 @@
 		2.1: Borra los commits posteriores al Hash indicado, pero conserva todos 	             tus cambios intactos en el Staging Area ( git reset --soft <HASH> )
 		2.2: Elimina los commits posteriores, limpia el Staging Area y  			     sobrescribe tus archivos de trabajo para dejarlos exactamente como 		     estaban en ese commit pasado. ( git reset --hard <HASH> ) únicamente 		     en commits locales porque es PELIGROSO
 
-1 hora y 26 kinutos---- CAMBIO 
+- git tag: Se utiliza para marcar o etiquetar puntos específicos en el historial de commits de tu proyecto, se utiliza para marcar versiones de un sistema
+
+-------------------------------------- RAMAS --------------------------------------
+
+- git branch: Para saber cuantas ramas locales existen (git branch -a es lo mismo pero también le suma las remotas)
+
+🡣
+🡣
+🡣
+
+- git checkout: Sirve para viajar entre diferentes estados o versiones dentro de tu repositorio, se puede utilizar para tres tareas muy distintas que son: 
+	1. Cambiar de rama ( git checkout nombre-de-rama )
+	2. Crear y cambiar de rama en un solo paso ( git checkout -b nueva-rama )
+	3. Moverte temporalmente a un punto específico del historial usando el Hash ( git checkout 1a2b3c4 )
+🡣
+🡣
+🡣
+
+- git merge: Sirve para unir el historial y el código de dos ramas diferentes en una sola. 
+
+-------------------------------------- CONFLICTOS --------------------------------------
+
 
 
 
