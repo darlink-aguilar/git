@@ -21,8 +21,6 @@
 		2.1: Borra los commits posteriores al Hash indicado, pero conserva todos 	             tus cambios intactos en el Staging Area ( git reset --soft <HASH> )
 		2.2: Elimina los commits posteriores, limpia el Staging Area y  			     sobrescribe tus archivos de trabajo para dejarlos exactamente como 		     estaban en ese commit pasado. ( git reset --hard <HASH> ) únicamente 		     en commits locales porque es PELIGROSO
 
-1 hora y 26 kinutos
-
 
 
 
