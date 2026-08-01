@@ -1,6 +1,3 @@
-- git branch: Para saber cuantas ramas locales existen (git branch -a es lo mismo pero también le suma las remotas)
-
->>>>>>> primera_rama
 - git shortlog -sn: Ver la lista de colaboradores y cuántos commits ha hecho cada uno
 
 - git status: Muestra el PRESENTE (El estado actual del repositorio)
@@ -23,7 +20,7 @@
 
 -------------------------------------- RAMAS --------------------------------------
 
-- git branch: Para saber cuantas ramas locales existen (git branch -a es lo mismo pero también le suma las remotas)
+- git branch: Para saber cuantas ramas locales existen (git branch -a es lo mismo pero también le suma las remotas // git branch -d para eliminar la rama)
 
 🡣
 🡣
@@ -52,6 +49,9 @@ Este conflicto pasa porque editaste las mismas líneas de ese archivo en ambas r
 
 Elimina esos símbolos y lo que no quieras agregar en el commit y ya solo haces un git add y el commit
 *
+
+
+2 horas y 42 minutos
 
 
 
