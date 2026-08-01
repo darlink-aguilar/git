@@ -19,7 +19,7 @@
 
 - git tag: Se utiliza para marcar o etiquetar puntos específicos en el historial de commits de tu proyecto, se utiliza para marcar versiones de un sistema
 
-- git stash: Sirve para guardar temporalmente los cambios que tienes en tu área de trabajo (modificaciones a archivos, nuevos cambios sin confirmar) sin necesidad de hacer un commit
+- git stash: Sirve para guardar temporalmente los cambios que tienes en tu área de trabajo (modificaciones a archivos, nuevos cambios sin confirmar) sin necesidad de hacer un commit (git stash pop para recuperar esos cambios // git stash drop para eliminar los cambios guardados temporalmente)
 
 -------------------------------------- RAMAS --------------------------------------
 
