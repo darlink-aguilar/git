@@ -18,6 +18,11 @@
 
 - git stash: Sirve para guardar temporalmente los cambios que tienes en tu área de trabajo (modificaciones a archivos, nuevos cambios sin confirmar) sin necesidad de hacer un commit (git stash pop para recuperar esos cambios // git stash drop para eliminar los cambios guardados temporalmente)
 
+
+-  git remote add origin [ link del repositorio creado en GitHub ]: Sirve para subir todo a la terminal remota, y después se hace un git push -u origin master
+
+- git push: Se utiliza para enviar o subir los commits que has realizado en tu repositorio local (tu computadora) a un repositorio remoto
+
 -------------------------------------- RAMAS --------------------------------------
 
 - git branch: Para saber cuantas ramas locales existen (git branch -a es lo mismo pero también le suma las remotas // git branch -d para eliminar la rama)
