@@ -23,6 +23,9 @@
 
 - git push: Se utiliza para enviar o subir los commits que has realizado en tu repositorio local (tu computadora) a un repositorio remoto
 
+- git fetch: Descarga todos los commits, ramas y archivos nuevos desde GitHub, pero no los mezcla con tu código de trabajo. Los guarda en una "zona intermedia" o rama de rastreo remoto en tu computadora.
+
+- git pull: Descarga los cambios desde GitHub (o el servidor remoto) y los integra directamente en tus archivos de trabajo locales en un solo paso.	
 -------------------------------------- RAMAS --------------------------------------
 
 - git branch: Para saber cuantas ramas locales existen (git branch -a es lo mismo pero también le suma las remotas // git branch -d para eliminar la rama)
