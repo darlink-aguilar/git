@@ -58,6 +58,9 @@ Este conflicto pasa porque editaste las mismas líneas de ese archivo en ambas r
 Elimina esos símbolos y lo que no quieras agregar en el commit y ya solo haces un git add y el commit
 *
 
+linea que se va a subir a GitHub
+
+
 
 
 
