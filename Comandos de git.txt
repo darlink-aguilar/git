@@ -60,6 +60,7 @@ Elimina esos símbolos y lo que no quieras agregar en el commit y ya solo haces 
 
 linea que se va a subir a GitHub
 
+3 horas y 30 minutos (apenas iba empezar el pull request)
 
 
 
