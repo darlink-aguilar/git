@@ -59,8 +59,5 @@ Elimina esos símbolos y lo que no quieras agregar en el commit y ya solo haces 
 *
 
 
-2 horas y 42 minutos
-
-
 
 
