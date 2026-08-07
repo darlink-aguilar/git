@@ -11,8 +11,8 @@
 - git reset: Sirve para deshacer cambios o "rebobinar" el estado de tu proyecto a un commit anterior. Y tiene varios usos que son:
 	1. Deshacer git add ( git reset nombre_del_archivo.ext )
 	2. Deshacer Commits
-		2.1: Borra los commits posteriores al Hash indicado, pero conserva todos 	             tus cambios intactos en el Staging Area ( git reset --soft <HASH> )
-		2.2: Elimina los commits posteriores, limpia el Staging Area y  			     sobrescribe tus archivos de trabajo para dejarlos exactamente como 		     estaban en ese commit pasado. ( git reset --hard <HASH> ) únicamente 		     en commits locales porque es PELIGROSO
+		2.1: Borra los commits posteriores al Hash indicado, pero conserva todos tus cambios intactos en el Staging Area ( git reset --soft <HASH> )
+		2.2: Elimina los commits posteriores, limpia el Staging Area y sobrescribe tus archivos de trabajo para dejarlos exactamente como estaban en ese commit 		     pasado. ( git reset --hard <HASH> ) únicamente en commits locales porque es PELIGROSO
 
 - git tag: Se utiliza para marcar o etiquetar puntos específicos en el historial de commits de tu proyecto, se utiliza para marcar versiones de un sistema
 
@@ -25,7 +25,11 @@
 
 - git fetch: Descarga todos los commits, ramas y archivos nuevos desde GitHub, pero no los mezcla con tu código de trabajo. Los guarda en una "zona intermedia" o rama de rastreo remoto en tu computadora.
 
-- git pull: Descarga los cambios desde GitHub (o el servidor remoto) y los integra directamente en tus archivos de trabajo locales en un solo paso.	
+- git pull: Descarga los cambios desde GitHub (o el servidor remoto) y los integra directamente en tus archivos de trabajo locales en un solo paso.
+
+- git clone: Se utiliza para descargar una copia exacta de un repositorio remoto (como uno alojado en GitHub, GitLab o Bitbucket) a tu computadora.
+
+- Un Fork: Es una copia exacta de un repositorio remoto alojado en una plataforma en la nube	
 -------------------------------------- RAMAS --------------------------------------
 
 - git branch: Para saber cuantas ramas locales existen (git branch -a es lo mismo pero también le suma las remotas // git branch -d para eliminar la rama)
@@ -58,10 +62,4 @@ Este conflicto pasa porque editaste las mismas líneas de ese archivo en ambas r
 Elimina esos símbolos y lo que no quieras agregar en el commit y ya solo haces un git add y el commit
 *
 
-linea que se va a subir a GitHub
-
-3 horas y 30 minutos (apenas iba empezar el pull request)
-
-
-
-
+Hacer la tarea de hacerle un fork al repositorio y mandar un pull request
